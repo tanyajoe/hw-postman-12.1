@@ -1,0 +1,995 @@
+{
+	"id": "d54be7c5-d54b-488c-b545-dd1c8395a983",
+	"name": "BOX",
+	"timestamp": "2022-12-08T23:59:01.694Z",
+	"collection_id": "9473224-153b6097-38a9-4dc6-a0b9-76e82392e26f",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 265,
+	"totalFail": 1,
+	"results": [
+		{
+			"id": "8029969f-0c94-401e-b4a4-4a8e4e80efc9",
+			"name": "Box-notifications",
+			"time": 116,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 14,
+					"fail": 0
+				}
+			},
+			"times": [
+				333,
+				117,
+				109,
+				136,
+				111,
+				110,
+				116,
+				111,
+				113,
+				108,
+				109,
+				116,
+				114,
+				116
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "ce71755f-d252-48b5-9b8a-66ad6be97eae",
+			"name": "Get boxes key",
+			"time": 114,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 14,
+					"fail": 0
+				}
+			},
+			"times": [
+				113,
+				107,
+				112,
+				109,
+				108,
+				114,
+				110,
+				110,
+				107,
+				112,
+				110,
+				146,
+				116,
+				114
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "a91d7e04-e7e1-4cb7-9d33-b6c9a5da62ba",
+			"name": "Create box step 1: name",
+			"time": 160,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 14,
+					"fail": 0
+				}
+			},
+			"times": [
+				179,
+				174,
+				170,
+				164,
+				153,
+				164,
+				149,
+				162,
+				150,
+				141,
+				153,
+				154,
+				169,
+				160
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "e74946f0-9097-436b-aeb9-c332510042b5",
+			"name": "Create box step 2: picture",
+			"time": 132,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Picture of the box returns strihg": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 14,
+					"fail": 0
+				},
+				"Picture of the box returns strihg": {
+					"pass": 14,
+					"fail": 0
+				}
+			},
+			"times": [
+				131,
+				127,
+				136,
+				141,
+				123,
+				122,
+				132,
+				130,
+				129,
+				124,
+				125,
+				164,
+				145,
+				132
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Picture of the box returns strihg": true
+				},
+				{
+					"Status code is 200": true,
+					"Picture of the box returns strihg": true
+				},
+				{
+					"Status code is 200": true,
+					"Picture of the box returns strihg": true
+				},
+				{
+					"Status code is 200": true,
+					"Picture of the box returns strihg": true
+				},
+				{
+					"Status code is 200": true,
+					"Picture of the box returns strihg": true
+				},
+				{
+					"Status code is 200": true,
+					"Picture of the box returns strihg": true
+				},
+				{
+					"Status code is 200": true,
+					"Picture of the box returns strihg": true
+				},
+				{
+					"Status code is 200": true,
+					"Picture of the box returns strihg": true
+				},
+				{
+					"Status code is 200": true,
+					"Picture of the box returns strihg": true
+				},
+				{
+					"Status code is 200": true,
+					"Picture of the box returns strihg": true
+				},
+				{
+					"Status code is 200": true,
+					"Picture of the box returns strihg": true
+				},
+				{
+					"Status code is 200": true,
+					"Picture of the box returns strihg": true
+				},
+				{
+					"Status code is 200": true,
+					"Picture of the box returns strihg": true
+				},
+				{
+					"Status code is 200": true,
+					"Picture of the box returns strihg": true
+				}
+			]
+		},
+		{
+			"id": "d1224a3c-1e5f-40d3-88d5-090b49d078eb",
+			"name": "Create box step 3: with cashLimit Copy",
+			"time": 135,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"useCashLimit of the new Box returns Boolean": true,
+				"If useCashLimit is true, returns cash limit and cash currency": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 13,
+					"fail": 0
+				},
+				"useCashLimit of the new Box returns Boolean": {
+					"pass": 13,
+					"fail": 0
+				},
+				"If useCashLimit is true, returns cash limit and cash currency": {
+					"pass": 13,
+					"fail": 0
+				}
+			},
+			"times": [
+				126,
+				134,
+				137,
+				136,
+				132,
+				123,
+				123,
+				128,
+				134,
+				145,
+				133,
+				135,
+				135
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"useCashLimit of the new Box returns Boolean": true,
+					"If useCashLimit is true, returns cash limit and cash currency": true
+				},
+				{
+					"Status code is 200": true,
+					"useCashLimit of the new Box returns Boolean": true,
+					"If useCashLimit is true, returns cash limit and cash currency": true
+				},
+				{
+					"Status code is 200": true,
+					"useCashLimit of the new Box returns Boolean": true,
+					"If useCashLimit is true, returns cash limit and cash currency": true
+				},
+				{
+					"Status code is 200": true,
+					"useCashLimit of the new Box returns Boolean": true,
+					"If useCashLimit is true, returns cash limit and cash currency": true
+				},
+				{
+					"Status code is 200": true,
+					"useCashLimit of the new Box returns Boolean": true,
+					"If useCashLimit is true, returns cash limit and cash currency": true
+				},
+				{
+					"Status code is 200": true,
+					"useCashLimit of the new Box returns Boolean": true,
+					"If useCashLimit is true, returns cash limit and cash currency": true
+				},
+				{
+					"Status code is 200": true,
+					"useCashLimit of the new Box returns Boolean": true,
+					"If useCashLimit is true, returns cash limit and cash currency": true
+				},
+				{
+					"Status code is 200": true,
+					"useCashLimit of the new Box returns Boolean": true,
+					"If useCashLimit is true, returns cash limit and cash currency": true
+				},
+				{
+					"Status code is 200": true,
+					"useCashLimit of the new Box returns Boolean": true,
+					"If useCashLimit is true, returns cash limit and cash currency": true
+				},
+				{
+					"Status code is 200": true,
+					"useCashLimit of the new Box returns Boolean": true,
+					"If useCashLimit is true, returns cash limit and cash currency": true
+				},
+				{
+					"Status code is 200": true,
+					"useCashLimit of the new Box returns Boolean": true,
+					"If useCashLimit is true, returns cash limit and cash currency": true
+				},
+				{
+					"Status code is 200": true,
+					"useCashLimit of the new Box returns Boolean": true,
+					"If useCashLimit is true, returns cash limit and cash currency": true
+				},
+				{
+					"Status code is 200": true,
+					"useCashLimit of the new Box returns Boolean": true,
+					"If useCashLimit is true, returns cash limit and cash currency": true
+				}
+			]
+		},
+		{
+			"id": "bde6801b-ab65-46b4-8d04-94745a0956e2",
+			"name": "Create box step 4: extra-settings with isCreated",
+			"time": 136,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"usePost of the new Box returns Boolean": true,
+				"useWish of the new Box returns Boolean": true,
+				"useNames of the new Box returns Boolean": true,
+				"isPhoneRequired of the new Box returns Boolean": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 13,
+					"fail": 0
+				},
+				"usePost of the new Box returns Boolean": {
+					"pass": 13,
+					"fail": 0
+				},
+				"useWish of the new Box returns Boolean": {
+					"pass": 13,
+					"fail": 0
+				},
+				"useNames of the new Box returns Boolean": {
+					"pass": 13,
+					"fail": 0
+				},
+				"isPhoneRequired of the new Box returns Boolean": {
+					"pass": 13,
+					"fail": 0
+				}
+			},
+			"times": [
+				126,
+				125,
+				132,
+				127,
+				125,
+				123,
+				127,
+				136,
+				122,
+				348,
+				132,
+				135,
+				136
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"usePost of the new Box returns Boolean": true,
+					"useWish of the new Box returns Boolean": true,
+					"useNames of the new Box returns Boolean": true,
+					"isPhoneRequired of the new Box returns Boolean": true
+				},
+				{
+					"Status code is 200": true,
+					"usePost of the new Box returns Boolean": true,
+					"useWish of the new Box returns Boolean": true,
+					"useNames of the new Box returns Boolean": true,
+					"isPhoneRequired of the new Box returns Boolean": true
+				},
+				{
+					"Status code is 200": true,
+					"usePost of the new Box returns Boolean": true,
+					"useWish of the new Box returns Boolean": true,
+					"useNames of the new Box returns Boolean": true,
+					"isPhoneRequired of the new Box returns Boolean": true
+				},
+				{
+					"Status code is 200": true,
+					"usePost of the new Box returns Boolean": true,
+					"useWish of the new Box returns Boolean": true,
+					"useNames of the new Box returns Boolean": true,
+					"isPhoneRequired of the new Box returns Boolean": true
+				},
+				{
+					"Status code is 200": true,
+					"usePost of the new Box returns Boolean": true,
+					"useWish of the new Box returns Boolean": true,
+					"useNames of the new Box returns Boolean": true,
+					"isPhoneRequired of the new Box returns Boolean": true
+				},
+				{
+					"Status code is 200": true,
+					"usePost of the new Box returns Boolean": true,
+					"useWish of the new Box returns Boolean": true,
+					"useNames of the new Box returns Boolean": true,
+					"isPhoneRequired of the new Box returns Boolean": true
+				},
+				{
+					"Status code is 200": true,
+					"usePost of the new Box returns Boolean": true,
+					"useWish of the new Box returns Boolean": true,
+					"useNames of the new Box returns Boolean": true,
+					"isPhoneRequired of the new Box returns Boolean": true
+				},
+				{
+					"Status code is 200": true,
+					"usePost of the new Box returns Boolean": true,
+					"useWish of the new Box returns Boolean": true,
+					"useNames of the new Box returns Boolean": true,
+					"isPhoneRequired of the new Box returns Boolean": true
+				},
+				{
+					"Status code is 200": true,
+					"usePost of the new Box returns Boolean": true,
+					"useWish of the new Box returns Boolean": true,
+					"useNames of the new Box returns Boolean": true,
+					"isPhoneRequired of the new Box returns Boolean": true
+				},
+				{
+					"Status code is 200": true,
+					"usePost of the new Box returns Boolean": true,
+					"useWish of the new Box returns Boolean": true,
+					"useNames of the new Box returns Boolean": true,
+					"isPhoneRequired of the new Box returns Boolean": true
+				},
+				{
+					"Status code is 200": true,
+					"usePost of the new Box returns Boolean": true,
+					"useWish of the new Box returns Boolean": true,
+					"useNames of the new Box returns Boolean": true,
+					"isPhoneRequired of the new Box returns Boolean": true
+				},
+				{
+					"Status code is 200": true,
+					"usePost of the new Box returns Boolean": true,
+					"useWish of the new Box returns Boolean": true,
+					"useNames of the new Box returns Boolean": true,
+					"isPhoneRequired of the new Box returns Boolean": true
+				},
+				{
+					"Status code is 200": true,
+					"usePost of the new Box returns Boolean": true,
+					"useWish of the new Box returns Boolean": true,
+					"useNames of the new Box returns Boolean": true,
+					"isPhoneRequired of the new Box returns Boolean": true
+				}
+			]
+		},
+		{
+			"id": "592c09ee-af25-4001-a8da-be2dcb913d79",
+			"name": "Get box",
+			"time": 121,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Key of the new Box returns entered key": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 13,
+					"fail": 0
+				},
+				"Key of the new Box returns entered key": {
+					"pass": 13,
+					"fail": 0
+				}
+			},
+			"times": [
+				117,
+				116,
+				126,
+				119,
+				113,
+				123,
+				115,
+				114,
+				115,
+				120,
+				122,
+				169,
+				121
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Key of the new Box returns entered key": true
+				},
+				{
+					"Status code is 200": true,
+					"Key of the new Box returns entered key": true
+				},
+				{
+					"Status code is 200": true,
+					"Key of the new Box returns entered key": true
+				},
+				{
+					"Status code is 200": true,
+					"Key of the new Box returns entered key": true
+				},
+				{
+					"Status code is 200": true,
+					"Key of the new Box returns entered key": true
+				},
+				{
+					"Status code is 200": true,
+					"Key of the new Box returns entered key": true
+				},
+				{
+					"Status code is 200": true,
+					"Key of the new Box returns entered key": true
+				},
+				{
+					"Status code is 200": true,
+					"Key of the new Box returns entered key": true
+				},
+				{
+					"Status code is 200": true,
+					"Key of the new Box returns entered key": true
+				},
+				{
+					"Status code is 200": true,
+					"Key of the new Box returns entered key": true
+				},
+				{
+					"Status code is 200": true,
+					"Key of the new Box returns entered key": true
+				},
+				{
+					"Status code is 200": true,
+					"Key of the new Box returns entered key": true
+				},
+				{
+					"Status code is 200": true,
+					"Key of the new Box returns entered key": true
+				}
+			]
+		},
+		{
+			"id": "38d4bdab-85fb-4e98-a86a-6b31e496ee33",
+			"name": "Box edit",
+			"time": 130,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Name of the Box changed": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 13,
+					"fail": 0
+				},
+				"Name of the Box changed": {
+					"pass": 13,
+					"fail": 0
+				}
+			},
+			"times": [
+				125,
+				126,
+				126,
+				133,
+				140,
+				130,
+				130,
+				123,
+				144,
+				128,
+				135,
+				133,
+				130
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Name of the Box changed": true
+				},
+				{
+					"Status code is 200": true,
+					"Name of the Box changed": true
+				},
+				{
+					"Status code is 200": true,
+					"Name of the Box changed": true
+				},
+				{
+					"Status code is 200": true,
+					"Name of the Box changed": true
+				},
+				{
+					"Status code is 200": true,
+					"Name of the Box changed": true
+				},
+				{
+					"Status code is 200": true,
+					"Name of the Box changed": true
+				},
+				{
+					"Status code is 200": true,
+					"Name of the Box changed": true
+				},
+				{
+					"Status code is 200": true,
+					"Name of the Box changed": true
+				},
+				{
+					"Status code is 200": true,
+					"Name of the Box changed": true
+				},
+				{
+					"Status code is 200": true,
+					"Name of the Box changed": true
+				},
+				{
+					"Status code is 200": true,
+					"Name of the Box changed": true
+				},
+				{
+					"Status code is 200": true,
+					"Name of the Box changed": true
+				},
+				{
+					"Status code is 200": true,
+					"Name of the Box changed": true
+				}
+			]
+		},
+		{
+			"id": "b8cb1c63-59f4-424a-9fd6-2b68f2ec5d7f",
+			"name": "Delete box",
+			"time": 125,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"responseBody returns OK": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 13,
+					"fail": 0
+				},
+				"responseBody returns OK": {
+					"pass": 13,
+					"fail": 0
+				}
+			},
+			"times": [
+				120,
+				130,
+				116,
+				142,
+				118,
+				117,
+				119,
+				123,
+				126,
+				166,
+				132,
+				123,
+				125
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"responseBody returns OK": true
+				},
+				{
+					"Status code is 200": true,
+					"responseBody returns OK": true
+				},
+				{
+					"Status code is 200": true,
+					"responseBody returns OK": true
+				},
+				{
+					"Status code is 200": true,
+					"responseBody returns OK": true
+				},
+				{
+					"Status code is 200": true,
+					"responseBody returns OK": true
+				},
+				{
+					"Status code is 200": true,
+					"responseBody returns OK": true
+				},
+				{
+					"Status code is 200": true,
+					"responseBody returns OK": true
+				},
+				{
+					"Status code is 200": true,
+					"responseBody returns OK": true
+				},
+				{
+					"Status code is 200": true,
+					"responseBody returns OK": true
+				},
+				{
+					"Status code is 200": true,
+					"responseBody returns OK": true
+				},
+				{
+					"Status code is 200": true,
+					"responseBody returns OK": true
+				},
+				{
+					"Status code is 200": true,
+					"responseBody returns OK": true
+				},
+				{
+					"Status code is 200": true,
+					"responseBody returns OK": true
+				}
+			]
+		},
+		{
+			"id": "e95ab355-5ed3-4b8a-a932-ef82a07a2660",
+			"name": "Get boxes",
+			"time": 423,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 13,
+					"fail": 0
+				}
+			},
+			"times": [
+				491,
+				414,
+				367,
+				363,
+				347,
+				444,
+				393,
+				330,
+				389,
+				420,
+				433,
+				434,
+				423
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 14,
+	"totalTime": 21323,
+	"collection": {
+		"requests": [
+			{
+				"id": "8029969f-0c94-401e-b4a4-4a8e4e80efc9",
+				"method": "GET"
+			},
+			{
+				"id": "ce71755f-d252-48b5-9b8a-66ad6be97eae",
+				"method": "GET"
+			},
+			{
+				"id": "a91d7e04-e7e1-4cb7-9d33-b6c9a5da62ba",
+				"method": "POST"
+			},
+			{
+				"id": "e74946f0-9097-436b-aeb9-c332510042b5",
+				"method": "POST"
+			},
+			{
+				"id": "d1224a3c-1e5f-40d3-88d5-090b49d078eb",
+				"method": "POST"
+			},
+			{
+				"id": "bde6801b-ab65-46b4-8d04-94745a0956e2",
+				"method": "POST"
+			},
+			{
+				"id": "592c09ee-af25-4001-a8da-be2dcb913d79",
+				"method": "GET"
+			},
+			{
+				"id": "38d4bdab-85fb-4e98-a86a-6b31e496ee33",
+				"method": "PUT"
+			},
+			{
+				"id": "b8cb1c63-59f4-424a-9fd6-2b68f2ec5d7f",
+				"method": "DELETE"
+			},
+			{
+				"id": "e95ab355-5ed3-4b8a-a932-ef82a07a2660",
+				"method": "GET"
+			}
+		]
+	}
+}
