@@ -1,0 +1,118 @@
+{
+	"id": "d0ea1bc0-e7f6-44f4-89dd-e97872d777f4",
+	"name": "CHANGE PASS",
+	"timestamp": "2022-12-10T13:15:25.398Z",
+	"collection_id": "9473224-d77d847c-d9f2-4f5f-b2d6-25c28a70b810",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 12,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "344089ce-2ffe-4681-8163-069e005c9b6b",
+			"name": "Change pass (valid)",
+			"time": 128,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 6,
+					"fail": 0
+				}
+			},
+			"times": [
+				594,
+				135,
+				132,
+				124,
+				143,
+				128
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "174bb59e-84c9-4c5f-89e1-a547e577bb7f",
+			"name": "Change pass (invalid)",
+			"time": 108,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 6,
+					"fail": 0
+				}
+			},
+			"times": [
+				121,
+				108,
+				110,
+				111,
+				110,
+				108
+			],
+			"allTests": [
+				{
+					"Status code is 400": true
+				},
+				{
+					"Status code is 400": true
+				},
+				{
+					"Status code is 400": true
+				},
+				{
+					"Status code is 400": true
+				},
+				{
+					"Status code is 400": true
+				},
+				{
+					"Status code is 400": true
+				}
+			]
+		}
+	],
+	"count": 6,
+	"totalTime": 1924,
+	"collection": {
+		"requests": [
+			{
+				"id": "344089ce-2ffe-4681-8163-069e005c9b6b",
+				"method": "PUT"
+			},
+			{
+				"id": "174bb59e-84c9-4c5f-89e1-a547e577bb7f",
+				"method": "PUT"
+			}
+		]
+	}
+}
